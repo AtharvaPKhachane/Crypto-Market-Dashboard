@@ -44,7 +44,6 @@ df.columns = [
 
 filtered_df = df
 
-engine = create_engine(DATABASE_URL)
 
 # Page config
 st.set_page_config(
