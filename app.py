@@ -44,9 +44,6 @@ df.columns = [
 
 filtered_df = df
 
-
-DATABASE_URL = f"mysql+pymysql://{username}:{password}@{host}:{port}/{database}"
-
 engine = create_engine(DATABASE_URL)
 
 # Page config
